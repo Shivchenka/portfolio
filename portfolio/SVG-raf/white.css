@@ -1,0 +1,110 @@
+div.pics {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 500px 500px 500px 500px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+div.white {
+    border: 2px solid #dddddd;
+    background-color: #65A6D1;
+    height: 500px;
+
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+  
+.white svg {
+    clip: rect(169px, 331px, 330px, 170px);
+    position: absolute;
+    top: 0px;
+    right:465px; 
+}
+
+div.diamond {
+      border: 2px solid #dddddd;
+      background-color: #5CCDC9;
+      height: 500px;
+
+      grid-row: 2/3;
+      grid-column: 1/-1;
+}
+
+div.pizza {
+
+  grid-row: 3/4;
+  grid-column: 1/-1;
+
+  height: 500px;
+  width: 500px;
+  background-color: #7EB12C;
+}
+
+.pizza  svg {
+  padding-left: 10px;
+  padding-top: 12px;
+}
+
+div.sphere {
+  grid-row: 4/5;
+  grid-column: 1/-1;
+
+  width: 500px;
+  height: 500px;
+background-color: #FFB100;
+}
+
+.sphere .first {
+  background-image: 
+  linear-gradient(to right, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.4) 50%, rgba(123, 51, 150, 0.8)  100%),
+  linear-gradient(to top, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.7) 50%, rgba(123, 51, 150, 0.8)  100%), 
+  linear-gradient(45deg, rgba(123, 51, 150, 0.8) 0%, rgba(189, 153, 202, 0.8) 50%, rgba(123, 51, 150, 0.8)  100%);
+  position: relative;
+  left: 160px;
+  top: 160px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.sphere .second {
+  background-image: 
+  linear-gradient(to right, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.4) 50%, rgba(123, 51, 150, 0.8)  100%),
+  linear-gradient(to top, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.7) 50%, rgba(123, 51, 150, 0.8)  100%), 
+  linear-gradient(45deg, rgba(123, 51, 150, 0.8) 0%, rgba(189, 153, 202, 0.8) 50%, rgba(123, 51, 150, 0.8)  100%);
+  position: relative;
+  left: 180px;
+  top: -20px;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+
+.sphere .third {
+  background-image: 
+  linear-gradient(to right, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.4) 50%, rgba(123, 51, 150, 0.8)  100%),
+  linear-gradient(to top, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.7) 50%, rgba(123, 51, 150, 0.8)  100%), 
+  linear-gradient(45deg, rgba(123, 51, 150, 0.8) 0%, rgba(189, 153, 202, 0.8) 50%, rgba(123, 51, 150, 0.8)  100%);
+  position: relative;
+  left: 200px;
+  top: -160px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.sphere .fourth {
+  background-image:
+  linear-gradient(to right, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.4) 50%, rgba(123, 51, 150, 0.8)  100%),
+  linear-gradient(to top, rgba(123, 51, 150, 0.8) 0%,  rgba(189, 153, 202, 0.7) 50%, rgba(123, 51, 150, 0.8)  100%), 
+  linear-gradient(45deg, rgba(123, 51, 150, 0.8) 0%, rgba(189, 153, 202, 0.8) 50%, rgba(123, 51, 150, 0.8)  100%);
+  
+  position: relative;
+  left: 220px;
+  top: -260px;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
