@@ -104,6 +104,9 @@ ul {
 
 .dark-theme .button {
   background-color: #8540a0;
+  position: relative;
+  left: 25px;
+  bottom: 10px;
 }
 
 .header-email {
