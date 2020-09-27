@@ -1,0 +1,344 @@
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+
+}
+
+main {
+    text-align: center;
+    background-color: #275d67;
+    transition-duration: 1.5s;
+    color: white;
+
+}
+h1 {
+    margin: 0px;
+}
+.description p {
+    margin: 0px;
+}
+
+div.counter p {
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+
+li {
+    font-size: 14px;
+    padding: 10px 5px 5px 0px;
+    color: white;
+}
+li.item {
+    list-style: none;
+    border: 2px #e5fdf4 solid;
+    width: 100%;
+    height: 80px;
+    background-color: #8968A2;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #A2689E ;
+
+}
+
+li.pushed {
+    background-color: #81537e;
+}
+
+.notes {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    font-size: 13px;
+}
+
+.note1 {
+    display: none;
+    top: 340px;
+    left: 40px;
+}
+.note1-active {
+    display: block;
+}
+.note1::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    left: 215px;
+    border-top: 10px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note2 {
+    display: none;
+    top: 230px;
+    right: 20px;
+}
+.note2-active {
+    display: block;
+}
+.note2::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note3 {
+    display: none;
+    top: 340px;
+    right: 20px;
+}
+.note3-active {
+    display: block;
+}
+.note3::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note4 {
+    display: none;
+    top: 550px;
+    left: 40px;
+}
+.note4-active {
+    display: block;
+}
+.note4::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    left: 215px;
+    border-top: 10px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note5 {
+    display: none;
+    top: 700px;
+    right: 20px;
+}
+.note5-active {
+    display: block;
+}
+.note5::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note6 {
+    display: none;
+    top: 230px;
+    left: 40px;
+}
+.note6-active {
+    display: block;
+}
+.note6::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    left: 215px;
+    border-top: 10px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note7 {
+    display: none;
+    top: 440px;
+    right: 20px;
+}
+.note7-active {
+    display: block;
+}
+.note7::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note8 {
+    display: none;
+    top: 640px;
+    right: 20px;
+}
+.note8-active {
+    display: block;
+}
+.note8::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note9 {
+    display: none;
+    top: 550px;
+    right: 20px;
+}
+.note9-active {
+    display: block;
+}
+.note9::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    right: 215px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note10 {
+    display: none;
+    top: 640px;
+    left: 40px;
+}
+.note10-active {
+    display: block;
+}
+.note10::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    left: 215px;
+    border-top: 10px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+.note12 {
+    display: none;
+    top: 440px;
+    left: 40px;
+}
+.note12-active {
+    display: block;
+}
+.note12::before {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 15px;
+    left: 215px;
+    border-top: 10px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px 170px;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 5px;
+    padding: 0px 20%;
+}
+
+.bingo1 {
+    background-color: 	#273a62;
+}
+.bingo2 {
+    background-color: 	#1f626b;
+}
+.bingo3 {
+    background-color: 	#1f3564;
+}
+.bingo4 {
+    background-color: 	#27746b;
+}
+.bingo5 {
+    background-color: 	#1f4167;
+}
+.bingo6 {
+    background-color: 	#377862;
+}
+.bingo7 {
+    background-color: 	#273a62;
+}
+.bingo8 {
+    background-color: 	#3d8161;
+}
+.bingo9 {
+    background-color: 	#1f4c6b;
+}
+.bingo10 {
+    background-color: 	#3d745f;
+}
+.bingo12 {
+    background-color: 	#273a62;
+}
+
+footer{
+    background-color: #275d67;
+    color: white;
+    margin-top: 0px;
+    width: 100%;
+    border-top: darkgray 2px solid;
+}
+footer p {
+    margin-bottom: 0px;
+    padding: 20px 40px;
+    font-size: 14px;
+    padding-left: 20%;
+    
+}
+
+footer a {
+    margin-bottom: 0px;
+    color: white;
+}
