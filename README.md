@@ -1,2 +1,2 @@
 # portfolio
-just my portfolio site
+just very junior portfolio site
