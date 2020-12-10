@@ -1,0 +1,222 @@
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+
+}
+
+.container {
+    position: relative;
+    top: 10%;
+    left: 35%;
+    width: 500px;
+}
+
+.calendar {
+    width: 500px;
+    height: 500px;
+    background-color: #85b4a0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    overflow: hidden;
+    margin: 150px 0px;
+}
+
+div.calendar .date {
+    color: white;
+    background-color: #C994AB;
+    width: 250px;
+    height: 250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+div.calendar .date:hover {
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+}
+div.calendar .date-1:hover {
+    box-shadow: -3px -3px 10px 1px gray inset;
+}
+div.calendar .date-2:hover {
+    box-shadow: 3px -3px 10px 1px gray inset;
+}
+div.calendar .date-3:hover {
+    box-shadow: -3px 3px 10px 1px gray inset;
+}
+div.calendar .date-4:hover {
+    box-shadow: 3px 3px 10px 1px gray inset;
+}
+
+div.calendar .number {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+div.calendar .text {
+    padding-top: 30px;
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+div.animal {
+    background-color: #489000;
+    color: white;
+    text-shadow: 1px 1px 2px #e7511d;
+    font-size: 24px;
+    height: 500px;
+    animation-name: back;
+    animation-duration: 18s;
+    animation-delay: 2s;
+    margin: 150px 0px;
+}
+div.animal p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+div.animal .hole {
+    overflow: hidden;
+    height: 60px;
+    position: relative;
+    top: 220px;
+}
+div.animal .changing {
+    font-weight: 900;
+    font-size: 32px;
+    width: 150px;
+    padding-left: 220px;
+    transform: translateY(-45px);
+}
+div.animal .constant-text {
+    width: 80px;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+div.animal .mooving-text {
+    animation-name: lift;
+    animation-duration: 18s;
+    animation-delay: 2s;
+}
+@keyframes lift {
+    0% {
+        transform: translateY(0px);
+    }
+    14% {
+        transform: translateY(-50px);
+    }
+    28% {
+        transform: translateY(-100px);
+    }
+    42% {
+        transform: translateY(-150px);
+    }
+    56% {
+        transform: translateY(-200px);
+    }
+    70% {
+        transform: translateY(-250px);
+    }
+    84% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+} 
+@keyframes back {
+    0% {
+        background-color: #489000;
+    }
+    14% {
+        background-color: #814000;
+    }
+    28% {
+        background-color: #326CA6;
+    }
+    42% {
+    background-color: #ff9933
+    }
+    56% {
+        background-color: #C06F98;
+    }
+    70% {
+        background-color: black;
+    }
+    84% {
+        background-color: #808A93;
+    }
+    100% {
+        background-color: #489000;
+    }
+}  
+
+div.bulb {
+    height: 500px;
+    margin: 150px 0px;
+    background-color: #302958;
+}
+
+div.bulb div.left-b {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 20px #cdc747;
+    background-color: #E4DE4F;
+    transition:
+        box-shadow 2s ease,
+        background-color 1s 0.5s ease;
+    position: relative;
+    top: 150px;
+    left: 120px;
+    margin: 0px 0px;
+}
+div.bulb div.left-b:hover {
+    box-shadow: 0 0 30px 20px #302958;
+    background-color: #A3A3A8;
+}
+
+div.bulb div.right-b {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 20px #302958;
+    background-color: #A3A3A8;
+    transition:
+        box-shadow 2s ease,
+        background-color 1s 0.5s ease;
+    position: relative;
+    top: 70px;
+    right: -320px;
+    margin: 0px 0px;
+}
+div.bulb div.right-b:hover {
+    box-shadow: 0 0 30px 20px #cdc747;
+    background-color: #E4DE4F;
+}
+
+
+
+
+
+footer{
+    background-color: #17181e;
+    color: white;
+    margin: 0px 0px 60px 0px;
+    position: relative;
+    left: 35%;
+    width: 500px;
+    border-top: darkgray 2px solid;
+}
+footer p {
+    margin-bottom: 0px;
+    padding: 30px 40px;
+    font-size: 14px;
+}
+footer a {
+    color: lightskyblue;
+}
